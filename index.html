@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOTSRAP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .heading-container {
+        background-color: #555555; /* Warna latar belakang */
+        padding: 5px; /* Ruang dalam di sekitar teks */
+        text-align: center; /* Posisi teks */
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+      }
+
+      .heading {
+        font-size: 36px; /* Ukuran font */
+        font-weight: bold; /* Ketebalan font */
+        color: #fff; /* Warna teks */
+        margin: 0; /* Menghilangkan margin default */
+        font-family: Garamond;
+      }
+
+      footer {
+        background-color: #555555;
+        color: #fff;
+        padding: 1px;
+        text-align: center;
+        font-family: Garamond;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar" style="background-color: pink">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="Logo" height="30" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://youtu.be/DdE87g6H0eM?si=Hd2mrLi1_xFuxbn7"
+                >Video</a
+              >
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-secondary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="heading-container">
+      <h1 class="heading">MY LITTLE PONY</h1>
+    </div>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="fluttershy.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Fluttershy</h5>
+          <p class="card-text">
+            Fluttershy dikenal karena suaranya yang lembut dan caramnya yang
+            penuh kasih terhadap makhluk hidup lainnya. Dia adalah contoh yang
+            sempurna tentang bagaimana kebaikan dan kelembutan dapat menjadi
+            kekuatan yang luar biasa dalam membangun hubungan yang positif
+            dengan orang lain.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="bnyk.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">My Little Pony</h5>
+          <p class="card-text">
+            Dikembangkan oleh Hasbro, "My Little Pony" mengisahkan tentang
+            kehidupan di Equestria, sebuah dunia yang dihuni oleh kuda-kuda
+            kecil yang ceria dan berwarna-warni. Setiap karakternya memiliki
+            kepribadian yang unik dan memikat, membawa pesan-pesan positif
+            tentang persahabatan, keberanian, dan kebaikan.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="rarity.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Rarity</h5>
+          <p class="card-text">
+            Dikenal karena keanggunannya, kepintarannya, dan ambisinya yang
+            besar, Rarity adalah poni yang selalu berusaha mencapai
+            impian-impian dan cita-citanya dalam dunia mode. Meskipun terkadang
+            dia bisa menjadi sedikit drama queen, namun hatinya yang baik dan
+            dedikasinya terhadap teman-temannya selalu bersinar terang.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer id="contact">
+      <div class="container">
+        <h2>Youtube</h2>
+        <p>@FriendshipIsMagicIndonesia</p>
+      </div>
+    </footer>
+  </body>
+</html>
